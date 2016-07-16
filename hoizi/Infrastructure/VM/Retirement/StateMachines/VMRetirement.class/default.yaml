@@ -1,0 +1,20 @@
+---
+object_type: instance
+version: 1.0
+object:
+  attributes:
+    display_name: 
+    name: Default
+    inherits: 
+    description: 
+  fields:
+  - UnregisterDNS:
+      value: "/General/dns_config/del_dns"
+  - ReleaseIPAddress:
+      value: "/General/phpipam/release_ip"
+  - RemoveFromProvider:
+      value: "/Infrastructure/VM/Retirement/StateMachines/Methods/RemoveFromProvider"
+  - CheckRemovedFromProvider:
+      value: "/Infrastructure/VM/Retirement/StateMachines/Methods/CheckRemovedFromProvider"
+  - DeleteFromVMDB:
+      value: "#/Infrastructure/VM/Retirement/StateMachines/Methods/DeleteFromVMDB"

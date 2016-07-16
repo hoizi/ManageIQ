@@ -1,0 +1,12 @@
+---
+object_type: method
+version: 1.0
+object:
+  attributes:
+    name: del_dns
+    display_name: Delete DNS a Record
+    description: 
+    scope: instance
+    language: ruby
+    location: inline
+  inputs: []

@@ -1,0 +1,12 @@
+---
+object_type: method
+version: 1.0
+object:
+  attributes:
+    name: add_custom_attribute
+    display_name: Add Custom Attribute
+    description: 
+    scope: instance
+    language: ruby
+    location: inline
+  inputs: []

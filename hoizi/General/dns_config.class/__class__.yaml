@@ -1,0 +1,113 @@
+---
+object_type: class
+version: 1.0
+object:
+  attributes:
+    description: 
+    display_name: DNS configuration to ISPConfig
+    name: dns_config
+    type: 
+    inherits: 
+    visibility: 
+    owner: 
+  schema:
+  - field:
+      aetype: attribute
+      name: soap_user
+      display_name: 
+      datatype: string
+      priority: 1
+      owner: 
+      default_value: 
+      substitute: true
+      message: create
+      visibility: 
+      collect: 
+      scope: 
+      description: 
+      condition: 
+      on_entry: 
+      on_exit: 
+      on_error: 
+      max_retries: 
+      max_time: 
+  - field:
+      aetype: attribute
+      name: soap_password
+      display_name: 
+      datatype: string
+      priority: 2
+      owner: 
+      default_value: 
+      substitute: true
+      message: create
+      visibility: 
+      collect: 
+      scope: 
+      description: 
+      condition: 
+      on_entry: 
+      on_exit: 
+      on_error: 
+      max_retries: 
+      max_time: 
+  - field:
+      aetype: attribute
+      name: isp_host
+      display_name: 
+      datatype: string
+      priority: 3
+      owner: 
+      default_value: 
+      substitute: true
+      message: create
+      visibility: 
+      collect: 
+      scope: 
+      description: 
+      condition: 
+      on_entry: 
+      on_exit: 
+      on_error: 
+      max_retries: 
+      max_time: 
+  - field:
+      aetype: attribute
+      name: isp_user
+      display_name: 
+      datatype: string
+      priority: 4
+      owner: 
+      default_value: 
+      substitute: true
+      message: create
+      visibility: 
+      collect: 
+      scope: 
+      description: 
+      condition: 
+      on_entry: 
+      on_exit: 
+      on_error: 
+      max_retries: 
+      max_time: 
+  - field:
+      aetype: method
+      name: function
+      display_name: 
+      datatype: string
+      priority: 5
+      owner: 
+      default_value: 
+      substitute: true
+      message: create
+      visibility: 
+      collect: 
+      scope: 
+      description: 
+      condition: 
+      on_entry: 
+      on_exit: 
+      on_error: 
+      max_retries: 
+      max_time: 

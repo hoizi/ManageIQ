@@ -1,0 +1,12 @@
+---
+object_type: method
+version: 1.0
+object:
+  attributes:
+    name: add_dns
+    display_name: Add DNS A Record
+    description: 
+    scope: instance
+    language: ruby
+    location: inline
+  inputs: []
