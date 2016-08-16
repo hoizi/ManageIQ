@@ -9,4 +9,4 @@ object:
     description: 
   fields:
   - rel1:
-      value: "/General/add_custom_attribute/AddCustomAttribute"
+      value: "/General/add_custom_attribute/add_custom_attribute"
